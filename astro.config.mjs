@@ -13,7 +13,7 @@ import vercel from '@astrojs/vercel/serverless'
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://astro-resume-pi.vercel.app',
+	site: 'https://example.me',
 	integrations: [
 		expressiveCode(expressiveCodeOptions),
 		tailwind({
